@@ -7,21 +7,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="header"></div>
+    <header>
+        <h1>Feedback</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="program.html">Program</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <main>
         <h2>We value your feedback!</h2>
         <form id="feedbackForm">
             <label for="name">Name:</label>
             <input type="text" id="name" required>
-            
-            <label for="message">Your Feedback:</label>
-            <textarea id="message" required></textarea>
-            
+
+            <label for="comments">Comments:</label>
+            <textarea id="comments" required></textarea>
+
             <button type="submit">Submit</button>
         </form>
-        <p id="responseMessage"></p>
     </main>
-    <div id="footer"></div>
+
+    <footer>
+        <p>© 2025 MMTTP | All Rights Reserved</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
